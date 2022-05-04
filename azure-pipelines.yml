@@ -30,7 +30,7 @@ stages:
   displayName: Build stage
   jobs:
   - job: BuildJob
-    pool: CTW-00987
+    pool: Default
     steps:
     - task: UsePythonVersion@0
       inputs:
