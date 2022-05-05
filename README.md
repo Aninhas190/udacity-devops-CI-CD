@@ -11,14 +11,25 @@ The project plan can be found in the sheets folder in docs google and the trello
 ## Instructions
 
 <TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+<img width="438" alt="image" src="https://user-images.githubusercontent.com/57501664/166905527-99cf0260-1907-43de-ae4a-a752318335a7.png">
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
-
+  * Open Azure Cloud Shell
+  * <img width="154" alt="image" src="https://user-images.githubusercontent.com/57501664/166905682-74cc8a43-964c-4b96-8b96-84c976854428.png">
+  * Generate a ssh keygen and connect to your github ssh keys
+  * run in your terminal ```ssh-keygen``` press enter
+  * <img width="362" alt="image" src="https://user-images.githubusercontent.com/57501664/166905963-b71e1471-aacc-4a0d-9a45-6b5d31d9428f.png">
+  * run in your terminal ```cat $path to where your public key is save ends in /id_rsa.pub.
+  * copy result, go to your github settings -> SSH and GPG keys -> click New SSH Key  paste and give title to key
+  * git clone the project in your <img width="347" alt="image" src="https://user-images.githubusercontent.com/57501664/166906384-26b930a1-65ef-4a7c-bd64-a08c5ba6569f.png">
+  * cd to your project and create virtual environment:
+    run ```python3 -m venv ~/.yourRepo```
+    run ```source ~/.your-repo/bin/activate```
+    
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
 * Output of a test run
