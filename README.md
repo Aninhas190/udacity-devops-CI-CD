@@ -1,12 +1,12 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+This is the second project for Udacity DevOps. The goal is to run Continuous Integration and Continuous Development in Azure and Azure Pipelines.
 
 ## Project Plan
-<TODO: Project Plan
+The project plan can be found in the sheets folder in docs google and the trello board created for this.
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* https://trello.com/b/X9Wfqrcz/udacity-course
+* https://docs.google.com/spreadsheets/d/1vmCY1sG8x81wtb36xSQL2vj8_DPgoONN09IhrmFtAnI/edit?usp=sharing
 
 ## Instructions
 
