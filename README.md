@@ -38,11 +38,12 @@ The project plan can be found in the sheets folder in docs google and the trello
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
-The output should look similar to this:
+* Successful prediction from deployed flask app in Azure Cloud Shell. 
+  * run ```chmod 744 ./make_predic_azure_app.sh``` to add permissions to your Cloud shell
+  * run ```./make_predict_azure_app.sh``` and you should see the following:
 
 ```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
+ana@Azure:~/udacity-devops-CI-CD$ ./make_predict_azure_app.sh 
 Port: 443
 {"prediction":[20.35373177134412]}
 ```
