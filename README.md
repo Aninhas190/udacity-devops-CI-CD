@@ -64,8 +64,7 @@ Add more features to predict more prices of houses in Boston given different fil
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
-
+https://youtu.be/al3T-s0BPDU
 
 
 # Screenshot passing GitHub Actions
