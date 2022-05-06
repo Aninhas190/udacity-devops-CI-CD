@@ -54,8 +54,9 @@ The project plan can be found in the sheets folder in docs google and the trello
    ```
 
 * Output of streamed log files from deployed application
+   Go to https://<your-app-name>.scm.azurewebsites.net/api/logs/docker which for me was https://udacity-project-2.scm.azurewebsites.net/api/logs/docker to see the streamed log files
 
-> ```[{"machineName":"pl0sdlwk0007KP_default","lastUpdated":"2022-05-05T14:50:41.8337636Z","size":747158,"href":"https://udacity-project-2.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_05_pl0sdlwk0007KP_default_docker.log","path":"/home/LogFiles/2022_05_05_pl0sdlwk0007KP_default_docker.log"},{"machineName":"pl0sdlwk0007KP","lastUpdated":"2022-05-05T14:50:41.8337636Z","size":127138,"href":"https://udacity-project-2.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_05_pl0sdlwk0007KP_docker.log","path":"/home/LogFiles/2022_05_05_pl0sdlwk0007KP_docker.log"}]```
+   > ```[{"machineName":"pl0sdlwk0007KP_default","lastUpdated":"2022-05-05T14:50:41.8337636Z","size":747158,"href":"https://udacity-project-2.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_05_pl0sdlwk0007KP_default_docker.log","path":"/home/LogFiles/2022_05_05_pl0sdlwk0007KP_default_docker.log"},{"machineName":"pl0sdlwk0007KP","lastUpdated":"2022-05-05T14:50:41.8337636Z","size":127138,"href":"https://udacity-project-2.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_05_pl0sdlwk0007KP_docker.log","path":"/home/LogFiles/2022_05_05_pl0sdlwk0007KP_docker.log"}]```
 
 ## Ehancements
 
