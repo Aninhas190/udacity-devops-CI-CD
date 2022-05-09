@@ -62,9 +62,11 @@ The project plan can be found in the sheets folder in docs google and the trello
    run
    ```pip install locust```
    ```locust -P {wanted port}```
-   go to localhost:{wanted port} on your browser
+   
+   Go to localhost:{wanted port} on your browser
    
    Add the load test with the link of your host:
+   
    ![image](https://user-images.githubusercontent.com/57501664/167457824-d3f14e34-06f6-4e98-a6ce-cd9337db933c.png)
    
    Command line result after closing the test:
