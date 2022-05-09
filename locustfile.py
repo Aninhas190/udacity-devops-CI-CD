@@ -1,6 +1,7 @@
 from locust import HttpUser, task
 
-class HelloWorldUser(HttpUser):
+class UdacityProject2(HttpUser):
     @task
-    def hello_world(self):
-        self.client.get("")
+    def enter_udacity_project(self):
+        self.client.get("/")
+        self.client.get("/predict")
