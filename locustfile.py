@@ -1,13 +1,6 @@
-from locust import HttpUser, task, TaskSet
+from locust import HttpUser, task
 
-class MyTaskSet(TaskSet):
+class HelloWorldUser(HttpUser):
     @task
-    def go_to_site(self):
-        self.client.get("https://udacity-project-2.azurewebsites.net")
-
-# class MyLocust(HttpLocust):
-#     task_set = UserBehavior
-#     min_wait = 1000
-#     max_wait = 5000
-
-#     host = https://udacity-project-2.azurewebsites.net
+    def hello_world(self):
+        self.client.get("")
