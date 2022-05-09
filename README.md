@@ -65,7 +65,7 @@ The project plan can be found in the sheets folder in docs google and the trello
    
    Go to localhost:{wanted port} on your browser
    
-   Add the load test with the link of your host:
+   Add the load test with the link of your host and press 'Start swarming':
    
    ![image](https://user-images.githubusercontent.com/57501664/167457824-d3f14e34-06f6-4e98-a6ce-cd9337db933c.png)
    
