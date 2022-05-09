@@ -71,4 +71,5 @@ https://youtu.be/al3T-s0BPDU
 
 ![image](https://user-images.githubusercontent.com/57501664/166148782-a0994ae2-6357-4f79-b936-108ab00d3df3.png)
 
-[![Build Status](https://dev.azure.com/CTW00987-udacity/udacity-project-2/_apis/build/status/Aninhas190.udacity-devops-CI-CD?branchName=main)](https://dev.azure.com/CTW00987-udacity/udacity-project-2/_build/latest?definitionId=1&branchName=main)
+   
+[![Python application test with Github Actions](https://github.com/Aninhas190/udacity-devops-CI-CD/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/Aninhas190/udacity-devops-CI-CD/actions/workflows/pythonapp.yml)
