@@ -58,6 +58,22 @@ The project plan can be found in the sheets folder in docs google and the trello
 
    > ```[{"machineName":"pl0sdlwk0007KP_default","lastUpdated":"2022-05-05T14:50:41.8337636Z","size":747158,"href":"https://udacity-project-2.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_05_pl0sdlwk0007KP_default_docker.log","path":"/home/LogFiles/2022_05_05_pl0sdlwk0007KP_default_docker.log"},{"machineName":"pl0sdlwk0007KP","lastUpdated":"2022-05-05T14:50:41.8337636Z","size":127138,"href":"https://udacity-project-2.scm.azurewebsites.net/api/vfs/LogFiles/2022_05_05_pl0sdlwk0007KP_docker.log","path":"/home/LogFiles/2022_05_05_pl0sdlwk0007KP_docker.log"}]```
 
+* Run load test
+   run
+   ```pip install locust```
+   ```locust -P {wanted port}```
+   go to localhost:{wanted port} on your browser
+   
+   Add the load test with the link of your host:
+   ![image](https://user-images.githubusercontent.com/57501664/167457824-d3f14e34-06f6-4e98-a6ce-cd9337db933c.png)
+   
+   Command line result after closing the test:
+   ![image](https://user-images.githubusercontent.com/57501664/167457686-61fa07af-f900-4122-b02b-1285eccaeccc.png)
+   
+   Report of the test from locust
+   ![image](https://user-images.githubusercontent.com/57501664/167457628-e20c8fba-ac24-46fc-b69c-cc9c17ae271d.png)
+
+   
 ## Ehancements
 
 Add more features to predict more prices of houses in Boston given different filter options.
